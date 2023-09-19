@@ -20,6 +20,6 @@ class BlogsTest < ApplicationSystemTestCase
     fill_in "Content", with: 'World!'
     click_on "Create Blog"
 
-    assert_text "The change you wanted was rejected." # fails
+    assert_text "The change you wanted was rejected."
   end
 end
